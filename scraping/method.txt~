@@ -1,0 +1,6 @@
+
+#Download the HTML page listing all the open access publications, 860 at the time I did this
+wget 'http://www.unesco.org/ulis/cgi-bin/ulis.pl?database=&set=00562F5F13_1_346&lin=1&lin=1&nl=1&sc1=1&sc2=1&ref=http%3A%2F%2Fwww.unesco.org%2Fulis%2Fopen_access%2Fadvanced_search.html&gp=1&pn=1&ll=1&futf8=1&rec_that_much=860&rec=1'
+
+#Filter out the links to unique PDFs, ignoring the same PDF in different language
+
